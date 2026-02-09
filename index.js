@@ -5,8 +5,8 @@ const http = require('http');
 const app = express();
 const PORT = process.env.PORT || 10000;  // Render يستخدم هذا الـ port
 
-const host = 'YOUR_ATERNOS_IP.aternos.me';  // ← غيّر هنا بـ IP السيرفر بالضبط
-const port = 25565;
+const host = 'mhamad09578.aternos.me';  // ← غيّر هنا بـ IP السيرفر بالضبط
+const port = 58650;
 
 const botNames = ['SmartBot1', 'SmartBot2'];
 let currentBotIndex = 0;
